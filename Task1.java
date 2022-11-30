@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
+import java.util.Collections;
 
 public class Task1 {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Task1 {
                 }
             }
         }
-        result = str.substring(Collection.min(in), Collection.max(in)+1);
+        result = str.substring(Collections.min(in), Collections.max(in)+1);
         System.out.println(result);
     }
 }
